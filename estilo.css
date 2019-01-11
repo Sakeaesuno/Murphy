@@ -11,37 +11,41 @@ h1{
 }
 p{
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 p.Naranja{
-    background-color: orange;
+    background-color: hsl(40, 100%, 75%);
     text-align: center;
-    border: 3px solid burlywood;
+    border: 3px solid hsl(40, 40%, 35%);
     position: absolute;
     top: 10%;
     left:10%;
     width: 75%; 
     height: 10%;
+    text-align: center;
 }
 p.Verde{
-    background-color: greenyellow;
+    background-color: hsl(120, 100%, 75%);
     text-align: center;
-    border: 3px solid green;
+    border: 3px solid hsl(120, 40%, 35%);
     position: absolute;
     top: 45%;
     left:35%;
     width: 35%; 
     height: 30%;
+    text-align: center;
+    z-index: 2;
 }
 p.Amarillo{
-    background-color: yellow;
+    background-color: hsl(60, 100%, 75%);
     text-align: center;
-    border: 3px solid yellowgreen;
+    border: 3px solid hsl(60, 64%, 55%);
     position: absolute;
     top: 25%;
     left:5%;
     width: 40%; 
-    height: 20%;
+    height: 25%;
+    text-align: left;
 }
 p.Azul{
    background-color: aqua;
@@ -52,4 +56,27 @@ p.Azul{
    width: 35%;
    height: 25%;
    position: absolute;
+}
+p.Rosa{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(300, 15%, 70%) 4px solid;
+    background-color: hsl(300, 100%, 95%);
+    text-align: left;
+}
+p.Granate{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(0, 15%, 45%) 4px solid;
+    background-color: hsl(0, 100%, 85%);
+    text-align: right
+}
+p:hover{
+    z-index: 3;
 }
